@@ -18,7 +18,6 @@ public class JDBCTest {
     public void testConnection() throws SQLException {
         Connection conn = null;
         try {
-            //Register JDBC driver
             Class.forName("com.mysql.jdbc.Driver");
 
             //Open a connection
